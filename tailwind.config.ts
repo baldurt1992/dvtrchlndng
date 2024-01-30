@@ -20,6 +20,12 @@ const config: Config = {
           "linear-gradient(to right, #8338ec, #6e3aff)",
         blueLight:
           "linear-gradient(to right, #ffbe0b, #fb5607, #3a86ff)",
+        color1:
+        "#ffbe0b",
+        color2:
+        "fb5607",
+        color3:
+        "#3a86ff",
       },
       boxShadow: {
         dark: "0px 20px 100px -10px rgba(66, 71, 91, 0.1)",

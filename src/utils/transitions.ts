@@ -6,8 +6,8 @@ export const fadeIn = () => {
       x: 0,
       transition: {
         type: "tween",
-        duration: 0.5,
-        delay: 0.5,
+        duration: 0.2,
+        delay: 0,
         ease: [0.25, 0.6, 0.3, 0.8],
       },
     },
@@ -17,8 +17,8 @@ export const fadeIn = () => {
       opacity: 1,
       transition: {
         type: "tween",
-        duration: 1.4,
-        delay: 0.5,
+        duration: 0.5,
+        delay: 0,
         ease: [0.25, 0.25, 0.25, 0.75],
       },
     },

@@ -29,7 +29,7 @@ export function Reveal({ children }: { children: React.ReactNode }) {
                 initial="hidden"
                 animate={mainControls}
                 exit="hidden"
-                transition={{ duration: 0.5, delay: 0.5 }}
+                transition={{ duration: 0.2, delay: 0.2 }}
             >
                 {children}
             </motion.div>
@@ -40,7 +40,7 @@ export function Reveal({ children }: { children: React.ReactNode }) {
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{ duration: 0.5, ease: "easeIn" }}
+                transition={{ duration: 0.2, ease: "easeIn" }}
                 style={{
                     position: "absolute",
                     top: 4,
@@ -51,7 +51,6 @@ export function Reveal({ children }: { children: React.ReactNode }) {
                     zIndex: 20
                 }}
             >
-
             </motion.div>
         </div>
     )

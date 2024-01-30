@@ -5,8 +5,8 @@ import { Poppins } from 'next/font/google'
 const popinsFont = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bank Website | TarreDev 💸 ',
-  description: 'Follow me for more!',
+  title: 'DevTorch',
+  description: 'Impulsa tu éxito con nuestros servicios de desarrollo experto. Desde aplicaciones web y móviles hasta tecnologías de vanguardia, convertimos tus ideas en realidad. Únete a nosotros para construir el futuro.',
 }
 
 export default function RootLayout({

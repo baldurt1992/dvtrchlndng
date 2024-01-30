@@ -5,13 +5,13 @@ import Link from "next/link";
 import { RiMenu3Line } from "react-icons/ri";
 import { dataHeader } from "./Header.data";
 import { useState } from "react";
-import { MotionTransition } from "../MotionTransition/";
+import { ContactButton } from "../ContactButton/ContactButton";
 
 export function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   return (
-    <MotionTransition>
+    <div>
       <nav className="flex flex-wrap items-center justify-between max-w-5xl p-4 mx-auto navbar md:pb-0">
         <Link href="/" className="flex items-center">
           <Image
@@ -28,9 +28,9 @@ export function Header() {
         <div
           className={`${
             openMobileMenu ? "block" : "hidden"
-          } w-full md:block md:w-auto`}
+          } w-full md:block md:w-auto flex items-center`} // Se agregó 'flex items-center' aquí
         >
-          <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row flex-auto md:space-x-8 md:mt-0 md:border-0 items-center">
             {dataHeader.map(({ id, name, idLink }) => (
               <div
                 key={id}
@@ -41,9 +41,10 @@ export function Header() {
                 </Link>
               </div>
             ))}
+            <ContactButton />
           </div>
         </div>
       </nav>
-    </MotionTransition>
+    </div>
   );
 }

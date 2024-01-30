@@ -61,9 +61,14 @@ body {
 }
 
 .button-contact {
-  width: 40%;
+  width: 50%;
   cursor: pointer;
   z-index: 9;
+}
+
+.services {
+  margin-right: 20%;
+  margin-left: 12.8%;
 }
 
 .button-contact a {

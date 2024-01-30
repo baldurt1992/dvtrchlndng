@@ -6,8 +6,8 @@ body {
 
 .view {
   position: absolute;
-  top: 30%;
-  left: 52%;
+  top: 44%;
+  left: 0%;
   perspective: 400;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .plane.main {
-  width: 400px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   position: absolute;
   top: 0;
   left: 0;
@@ -32,13 +32,13 @@ body {
 }
 
 .plane.main .circle1 {
-  width: 400px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   position: absolute;
   transform-style: preserve-3d;
   border-radius: 100%;
   box-sizing: border-box;
-  box-shadow: 0 0 60px #ff7332, inset 0 0 60px #ffc423;
+  box-shadow: 0 0 60px #fb5607, inset 0 0 60px #ffc423;
 }
 
 .plane.main .circle1::before,
