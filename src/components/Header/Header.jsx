@@ -31,16 +31,20 @@ export function Header() {
           } w-full md:block md:w-auto flex items-center`}
         >
           <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row flex-auto md:space-x-12 md:mt-0 md:border-0 items-center">
-            {dataHeader.map(({ id, name, idLink }) => (
-              <div key={id} className="px-5 links-nav">
-                <Link href={idLink} className="links-nav">
-                  {name}
-                </Link>
-              </div>
-            ))}
-            <div className="hidden md:block">
-              <ContactButton />
-            </div>
+            {dataHeader.map(({ id, name, idLink, component }) => {
+              if (component) {
+                return <div key={id}>{component()}</div>;
+              } else {
+                return (
+                  <div key={id} className="px-5 links-nav">
+                    <Link href={idLink} className="links-nav">
+                      {name}
+                    </Link>
+                  </div>
+                );
+              }
+            })}
+            
           </div>
         </div>
       </nav>

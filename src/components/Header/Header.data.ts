@@ -11,4 +11,10 @@ export const dataHeader = [
     name: "Servicios",
     idLink: "#Services",
   },
+  {
+    id: 3,
+    name: "Conctact",
+    idLink: "#Services",
+    component: ContactButton,
+  }
 ];

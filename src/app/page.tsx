@@ -4,7 +4,7 @@ import { ControlBilling } from "@/components/ControlBilling";
 import { Services } from "@/components/Services";
 import { FirstBlock } from "@/components/FirstBlock";
 import { Footer } from "@/components/Footer/";
-import { Header } from "@/components/Header";
+import { Header } from "@/components/Header/Header.jsx";
 import { PaymentsMethods } from "@/components/PaymentsMethods";
 import { Contact } from "@/components/Contact";
 

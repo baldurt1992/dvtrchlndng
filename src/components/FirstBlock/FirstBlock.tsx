@@ -33,7 +33,7 @@ export function FirstBlock() {
               </p>
             </div>
             <div className="block md:hidden">
-              <ContactButton withIcon />
+              <ContactButton />
             </div>
           </div>
         </div>
