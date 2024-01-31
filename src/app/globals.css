@@ -58,31 +58,100 @@ body {
   .navbar {
     margin-bottom: 32px;
   }
+
+  .logo {
+    margin-left: 8%;
+  }
+
 }
 
-.button-contact {
-  width: 50%;
+.degradable {
+  color: #fff;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+.degradable:hover {
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.links-nav {
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 21px;
+  transition: all ease-in-out 500ms;
+}
+
+
+.links-nav:hover {
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  scale: 110%;
+}
+
+.btn-bg.bg-2 .btn-2 button {
+  color: #fff;
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  border: none;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-bg.bg-2 .btn-2 button:hover {
+  background: transparent;
+  color: #f8f8f8;
+}
+
+.btn-bg.bg-2 .btn-2 button:hover:before,
+.btn-bg.bg-2 .btn-2 button:hover:after {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 100%;
+}
+
+.btn-bg.bg-2 .btn-2 button:before,
+.btn-bg.bg-2 .btn-2 button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 0px;
+  height: 3px;
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  transition: all 0.4s ease;
+}
+
+.btn-bg.bg-2 .btn-2 button:after {
+  top: inherit;
+  left: inherit;
+  bottom: 0;
+  right: 0;
+}
+
+button {
+  width: 30px;
   cursor: pointer;
-  z-index: 9;
+  overflow: hidden;
+  outline: none;
+  color: #fff;
+  position: relative;
+  font-weight: 400;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 1.5em;
 }
 
-.services {
-  margin-right: 20%;
-  margin-left: 12.8%;
+button a {
+  text-decoration: none;
 }
-
-.button-contact a {
-  transition: background ease-in-out 1s;
-}
-
-.button-contact:hover a {
-  background: linear-gradient(to right, #fb5607, #ffbe0b);
-}
-
-.button-contact:hover {
-  background: linear-gradient(to right, #fb5607, #ffbe0b);
-}
-
 
 .img-phone {
   animation: phoneAnimation 5s linear infinite;

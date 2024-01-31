@@ -7,7 +7,7 @@ body {
 .view {
   position: absolute;
   top: 44%;
-  left: 0%;
+  left: 10%;
   perspective: 400;
 }
 

@@ -12,8 +12,8 @@ export function Header() {
 
   return (
     <div>
-      <nav className="flex flex-wrap items-center justify-between max-w-5xl p-4 mx-auto navbar md:pb-0">
-        <Link href="/" className="flex items-center">
+      <nav className="flex flex-wrap items-center justify-between max-w-7xl p-4 mx-auto navbar md:pb-0">
+        <Link href="/" className="flex items-center logo md:">
           <Image
             src="/assets/logo.png"
             width="150"
@@ -28,20 +28,19 @@ export function Header() {
         <div
           className={`${
             openMobileMenu ? "block" : "hidden"
-          } w-full md:block md:w-auto flex items-center`} // Se agregó 'flex items-center' aquí
+          } w-full md:block md:w-auto flex items-center`}
         >
-          <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row flex-auto md:space-x-8 md:mt-0 md:border-0 items-center">
+          <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row flex-auto md:space-x-12 md:mt-0 md:border-0 items-center">
             {dataHeader.map(({ id, name, idLink }) => (
-              <div
-                key={id}
-                className="px-4 transition-all duration-500 ease-in-out hover:scale-110"
-              >
-                <Link href={idLink} className="text-lg hover:text-secondary">
+              <div key={id} className="px-5 links-nav">
+                <Link href={idLink} className="links-nav">
                   {name}
                 </Link>
               </div>
             ))}
-            <ContactButton />
+            <div className="hidden md:block">
+              <ContactButton />
+            </div>
           </div>
         </div>
       </nav>

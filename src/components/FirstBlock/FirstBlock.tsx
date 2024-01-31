@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Animation from "../Video/Animation";
+import { ContactButton } from "../ContactButton/ContactButton";
 
 export function FirstBlock() {
   return (
-    <div className=" p-4 first-block color-first md:mt-24 ml-5 mb-24 overflow-hidden">
+    <div className=" p-4 first-block color-first md:mt-24  mb-24 overflow-hidden">
       <div className="grid max-w-5xl mx-auto md:grid-cols-2 gap-8">
         {" "}
         <div>
@@ -12,14 +13,12 @@ export function FirstBlock() {
             <div>
               <h1 className="text-4xl font-semibold md:text-6xl">
                 <span className="block md:mb-4">
-                  Desarrollo   
-                  <span className="block md:mt-2">
-                     y diseño
-                  </span>
+                  Desarrollo
+                  <span className="block md:mt-2">y diseño</span>
                   <span className="block degradedBlue bg-blueLight text-5xl md:text-6xl">
                     a medida
                   </span>
-                  para todos  
+                  para todos
                 </span>
               </h1>
             </div>
@@ -33,10 +32,12 @@ export function FirstBlock() {
                 constante evolución.
               </p>
             </div>
-            <div></div>
+            <div className="block md:hidden">
+              <ContactButton withIcon />
+            </div>
           </div>
         </div>
-        <div className=" relative grid mt-4 hidden md:block mr-40 static">
+        <div className=" relative grid mt-4 hidden md:block static">
           <Animation />
         </div>
       </div>
