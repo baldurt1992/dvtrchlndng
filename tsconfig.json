@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Header/Header.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx","**/*.jsx", "**/*.js", ".next/types/**/*.ts", "src/components/Header/Header.jsx", "src/components/Video/Block2.jsx", "src/components/Services/CounterData.jsx", "src/components/Services/CounterData.data.js"],
   "exclude": ["node_modules"]
 }

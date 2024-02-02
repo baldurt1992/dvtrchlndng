@@ -4,7 +4,7 @@ import { ContactButton } from "../ContactButton/ContactButton";
 
 export function FirstBlock() {
   return (
-    <div className=" p-4 first-block color-first md:mt-24  mb-24 overflow-hidden">
+    <div className=" p-4 first-block mobile-view color-first md:mt-24 overflow-hidden">
       <div className="grid max-w-5xl mx-auto md:grid-cols-2 gap-8">
         {" "}
         <div>
@@ -31,9 +31,9 @@ export function FirstBlock() {
                 asegurando resultados que destacan en un mundo digital en
                 constante evolución.
               </p>
-            </div>
-            <div className="block md:hidden">
-              <ContactButton />
+              <div className="button-visible">
+                <ContactButton />
+              </div>
             </div>
           </div>
         </div>

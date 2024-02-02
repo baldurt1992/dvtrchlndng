@@ -1,7 +1,7 @@
 import { BestBusiness } from "@/components/BestBusiness";
 import { ChooseYourCards } from "@/components/ChooseYourCards";
 import { ControlBilling } from "@/components/ControlBilling";
-import { Services } from "@/components/Services";
+import { Services } from "@/components/Services/CounterData";
 import { FirstBlock } from "@/components/FirstBlock";
 import { Footer } from "@/components/Footer/";
 import { Header } from "@/components/Header/Header.jsx";

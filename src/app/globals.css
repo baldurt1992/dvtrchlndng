@@ -9,6 +9,10 @@ html {
 body {
   background-color: #1a1a1a;
   color: #fff;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -22,20 +26,171 @@ body {
   padding: 5px 0;
 }
 
+.mobile-view {
+  margin-top: 4em;
+  height: 77vh;
+  margin-bottom: 0;
+}
+
+@media (min-width: 767px) {
+  .mobile-view {
+    margin-top: 0;
+    height: 45rem;
+    margin-bottom: 0;
+  }
+}
+
+.button-header {
+  display: none;
+}
+
+@media (min-width:767px) {
+  .button-header {
+    display: block;
+  }
+}
+
+.button-visible {
+  display: block;
+}
+
+@media (min-width: 767px) {
+  .button-visible {
+    display: none;
+  }
+}
+
 .height-container {
   height: 500px;
 }
 
-.shadow-cards {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.137);
-  cursor: pointer;
-}
-.shadow-cards:hover {
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.336);
-  background-color: #1a1a1a;
-  color: #f8f8f8;
+.card-container {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+  height: 73rem;
+  font-size: 10px;
+  background: linear-gradient(to right, #ffbe0b, #fb5407);
+  border-radius: 10px;
+  margin-top: 8em;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
+@media (min-width: 767px) {
+  .card-container {
+    height: 50em;
+    width: 110em;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ffbe0bb9, #fb5407ab);
+    transition: all ease-in-out 350ms;
+  }
+
+  .card-container:hover {
+    background: linear-gradient(to right, #ffbe0b, #fb5607);
+    transform: scale(110%);
+  }
+
+}
+
+.text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+@media (min-width:767px) {
+  .text-card {
+    font-size: unset;
+  }
+}
+
+.cards {
+  width: 100%;
+  height: 50%;
+}
+
+.img-card {
+  width: 30%;
+  height: auto;
+}
+
+.img-card4 {
+  width: 40%;
+  height: auto;
+}
+
+.header-card {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.shadow-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
+  cursor: pointer;
+  transition: all ease-in-out 350ms;
+  background: #eeeeee;
+  height: 15rem;
+  width: 18rem;
+
+}
+
+@media (min-width:767px) {
+  .shadow-cards {
+    height: 20rem;
+    width: auto;
+  }
+}
+
+.shadow-cards:hover {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.699);
+  background-color: #1a1a1a;
+  color: #fff;
+  transform: scale(107%);
+}
+
+.text-gradient {
+  background: #1a1a1a;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.shadow-cards:hover .text-gradient {
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.degradable {
+  color: #1a1a1a;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+.degradable:hover {
+  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 .swiper-pagination-bullet {
   background: #fff !important;
@@ -67,37 +222,34 @@ body {
 
 .navbar {
   margin-bottom: 0;
+
 }
 
-@media (min-width: 767px) {
+@media (min-width: 767px) and (max-width: 1919px) {
   .navbar {
-    margin-bottom: 32px;
+    margin-left: 7vw;
+    max-width: 100%;
+    min-width: 20%;
   }
+}
 
-  .logo {
-    margin-left: 8%;
+@media (min-width: 1920px) {
+  .navbar {
+    margin-left: 20%;
+    margin-right: 22%;
+    max-width: 100%;
+    min-width: 10%;
   }
-
-}
-
-.degradable {
-  color: #1a1a1a;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 
-.degradable:hover {
-  background: linear-gradient(to right, #ffbe0b, #fb5607);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
 
 .links-nav {
   color: #fff;
   transition: background-color 0.3s ease-in-out;
   font-size: 21px;
   transition: all ease-in-out 500ms;
+
 }
 
 
@@ -190,7 +342,8 @@ button a {
 @media (min-width: 767px) {
   .button-contact {
     width: 100%;
-    height: 20%;
+    height: auto;
+    max-width: 100%;
   }
 }
 
