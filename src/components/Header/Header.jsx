@@ -10,7 +10,7 @@ export function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   return (
-    <div>
+    <div className="nav-wrapper">
       <nav className="flex flex-wrap items-center justify-between  p-4 mx-auto navbar md:pb-0 md:">
         <Link href="/" className="flex items-center logo md:">
           <Image

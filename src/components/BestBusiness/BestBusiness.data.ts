@@ -4,22 +4,25 @@ export const dataFeaturesBusiness: BestBusinessData = [
   {
     id: 1,
     icon: "rewards",
-    title: "Recompensas",
     description:
-      "Las mejores tarjetas de crédito ofrecen algunas combinaciones tentadoras de promociones y premios.",
+      "Desarrolla aplicaciones que cautiven a tus usuarios.",
   },
   {
     id: 2,
-    icon: "safe",
-    title: "100% Seguro",
+    icon: "rewards",
     description:
-      "Tomamos medidas proactivas para asegurarnos de que su información  y sus transacciones estén seguras.",
+      "Simplifica tus procesos empresariales para maximizar la eficiencia.",
   },
   {
     id: 3,
-    icon: "send",
-    title: "Envíos gratis",
+    icon: "rewards",
     description:
-      "Una tarjeta de crédito con transferencia de saldo puede ahorrarle mucho dinero en intereses.",
+      "Crea herramientas personalizadas que impulsen el crecimiento de tu negocio.",
+  },
+  {
+    id: 3,
+    icon: "rewards",
+    description:
+      "Automatiza tareas repetitivas para liberar tiempo y recursos valiosos.",
   },
 ];

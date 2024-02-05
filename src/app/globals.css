@@ -80,6 +80,14 @@ body {
   overflow: hidden;
 }
 
+.form-button {
+  background: linear-gradient(to right, #ffbe0b, #fb5407);
+}
+
+.form-button:hover {
+  opacity: 0.7;
+}
+
 @media (min-width: 767px) {
   .card-container {
     height: 50em;
@@ -227,17 +235,17 @@ body {
 
 @media (min-width: 767px) and (max-width: 1919px) {
   .navbar {
-    margin-left: 7vw;
-    max-width: 100%;
-    min-width: 20%;
+    gap: 400px;
+    margin: 0 auto;
+    min-width: 10%;
   }
 }
 
 @media (min-width: 1920px) {
   .navbar {
-    margin-left: 20%;
-    margin-right: 22%;
-    max-width: 100%;
+    gap: 800px;
+    margin: 0 auto;
+    max-width: 1920px;
     min-width: 10%;
   }
 }
