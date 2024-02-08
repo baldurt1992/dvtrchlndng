@@ -1,4 +1,3 @@
-import { Reveal } from "../Reveal";
 import { contactSection } from "../Contact/Contact.data";
 import Image from "next/image";
 import Link from "next/link";
