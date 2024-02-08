@@ -5,7 +5,7 @@ import { CtaDark } from "../CtaDark";
 
 export function PaymentsMethods() {
   return (
-    <div className="relative py-20 md:py-64" id="servicios">
+    <div className="relative pt-24 md:pb-40 md:pt-64" id="servicios">
       <CtaDark />
     </div>
   );

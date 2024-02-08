@@ -4,7 +4,7 @@ import React from "react";
 export function Services() {
   return (
     <div className="max-w-8xl card-container tracking-wider mx-auto">
-      <div className="flex justify-center">
+      <div className="flex justify-center p-8">
         <div className="cards max-w-scree-lg mx-auto grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {dataCounter.map(({ id, text, image, description }) => (
             <div

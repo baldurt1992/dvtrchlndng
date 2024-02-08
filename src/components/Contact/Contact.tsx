@@ -6,29 +6,33 @@ import { ContactButton } from "../ContactButton/ContactButton";
 
 export function Contact() {
   return (
-    <div className="relative p-2 md:py-2" id="Contact">
-      <div className="grid max-w-7xl gap-10 mx-auto my-0 md:grid-cols-2 place-items-center">
+    <div className="background-contact p-2 md:py-2" id="Contact">
+      <div className="p-4 grid max-w-7xl gap-10 mx-auto my-0 md:grid-cols-2 place-items-center">
         <div>
           <div className="max-w-lg md:max-w-none">
-            <h2 className="text-5xl md:text-8xl mb-10 font-light">
-              Chatea con nosotros
+            <h2 className="text-4xl md:text-7xl mb-10 font-semibold">
+              <span className="text-white text-7xl chat-with-us block">
+                Chatea{" "}
+              </span>
+              <span className="text-black block">con </span>
+              <span className="text-black block">nosotros</span>
             </h2>
-            <p className="text-primaryDark text-xl md:text-2xl">
+            <p className="text-xl text-black md:text-2xl">
               Todo lo que necesitas para lograr el posicionamiento de tu
               empresa, con desarrollo y diseño a tu medida.
             </p>
-            <div className="my-8 flex flex-start">
+            <div className="my-8 flex flex-start ">
               <ContactButton />
             </div>
           </div>
         </div>
         {contactSection.map(({ item }) => (
           <div key={item}>
-            <div className="self-center phone mt-5 hidden md:block">
+            <div className="phone mt-5 hidden md:block">
               <Image
                 src="/assets/phone1.png"
                 alt="phone"
-                width={550}
+                width={650}
                 height={550}
                 className="md:w-100 img-phone"
               />

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Reveal } from "../Reveal";
 import { useState } from "react";
 
@@ -22,8 +21,8 @@ export function CtaDark() {
     console.log(formData); // Puedes manejar la lógica de envío del formulario aquí
   };
   return (
-    <div className="px-6 my-20 md:mt-0">
-      <div className="max-w-5xl px-4 py-6 mx-auto border-transparent bg-radialBlack md:px-16 md:py-12 shadow-dark rounded-3xl">
+    <div className="px-6 mt-8 md:mt-0">
+      <div className="max-w-7xl h-auto px-4 py-4 mx-auto border-transparent bg-radialBlack md:px-16 md:py-12 shadow-dark rounded-3xl">
         <div className="grid items-center md:grid-cols-2">
           <div className="my-8">
             <Reveal>
@@ -48,7 +47,7 @@ export function CtaDark() {
             </Reveal>
           </div>
 
-          <div className="max-w-md mx-auto mt-10 p-6 bg-gray-100 rounded-lg shadow-md">
+          <div className="max-w-md mx-auto md:w-80 mt-0 p-6 bg-gray-100 rounded-lg shadow-md">
             <form onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label

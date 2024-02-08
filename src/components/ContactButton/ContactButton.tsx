@@ -11,7 +11,9 @@ export function ContactButton() {
       >
         <div className="btn-bg bg-2 flex jusfify-center items-center justify-center items-center">
           <div className="flex flex-row items-center justify-center px-0 py-2 button-contact btn btn-2 md:px-0">
-            <button className="text-sl md:text-lg">Contáctanos</button>
+            <button className="text-sl md:text-lg shadow-button">
+              Contáctanos
+            </button>
           </div>
         </div>
       </Link>

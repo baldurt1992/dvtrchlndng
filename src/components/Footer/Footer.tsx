@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <div className="max-w-5xl p-6 mx-auto mt-10 md:-mt-40">
+    <div className="max-w-5xl p-6 mx-auto footer">
       <div className="justify-between md:flex">
         <div>
           <Image
