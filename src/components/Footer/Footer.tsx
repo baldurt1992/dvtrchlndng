@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Reveal } from "../Reveal";
 import { footerData, footerSocialNetworks } from "./Footer.data";
 import Link from "next/link";
 
@@ -12,13 +11,13 @@ export function Footer() {
             src="/assets/logo.png"
             width={200}
             height={40}
-            alt="Logo Bank"
+            alt="Logo dev"
           />
-          <Reveal>
+          <div>
             <p className="mt-5 text-primaryDark max-w-[250px]">
               Construyendo tu Futuro Digital, Línea a Línea
             </p>
-          </Reveal>
+          </div>
         </div>
       </div>
 
@@ -26,7 +25,7 @@ export function Footer() {
 
       <div className="items-center justify-between md:flex">
         <div className="my-3">
-          <Reveal>2023 DevTorch. Todos los derechos reservados.</Reveal>
+          <div>2023 DevTorch. Todos los derechos reservados.</div>
         </div>
         <div className="flex gap-5">
           {footerSocialNetworks.map(({ id, icon, link }) => (

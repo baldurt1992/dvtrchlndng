@@ -6,8 +6,14 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "frameworksBackend": {
-      "region": "us-central1"
+    "frameworks": {
+      "react": {
+        "source": "public",
+        "hosting": {
+          "public": "public",
+          "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+        }
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ export function Header() {
       <nav className="flex flex-wrap items-center justify-between  p-4 mx-auto navbar md:pb-0 md:">
         <Link href="/" className="flex items-center logo md:">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/devtorchlanding.appspot.com/o/logo.png?alt=media&token=ce7a69e7-e68e-46df-a3ca-fca03d77aebe"
+            src="/assets/logo.png"
             width="150"
             height="40"
             alt="Logo Dev"
