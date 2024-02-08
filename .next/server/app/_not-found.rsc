@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/fcfc24a5f2fdcc89.css","style",{"crossOrigin":""}]
-0:["fWSx0A1oYH86dOO7fROqy",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fcfc24a5f2fdcc89.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["ijcT403tUuY6Xwjgfg5cP",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fcfc24a5f2fdcc89.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[6954,[],""]
 5:I[7264,[],""]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"DevTorch"}],["$","meta","2",{"name":"description","content":"Impulsa tu éxito con nuestros servicios de desarrollo experto. Desde aplicaciones web y móviles hasta tecnologías de vanguardia, convertimos tus ideas en realidad. Únete a nosotros para construir el futuro."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
