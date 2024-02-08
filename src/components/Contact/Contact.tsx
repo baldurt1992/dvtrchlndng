@@ -10,7 +10,7 @@ export function Contact() {
         <div>
           <div className="max-w-lg md:max-w-none">
             <h2 className="text-4xl md:text-7xl mb-10 font-semibold">
-              <span className="text-white text-7xl chat-with-us block">
+              <span className="text-whitetext-7xl chat-with-us block">
                 Chatea{" "}
               </span>
               <span className="text-black block">con </span>

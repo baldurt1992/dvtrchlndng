@@ -27,10 +27,11 @@ export function BestBusiness() {
             <div key={id}>
               <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack">
                 <Image
+                  className="mt-2"
                   src="/assets/rewards.ico"
                   alt={description}
-                  width={40}
-                  height={40}
+                  width={30}
+                  height={30}
                 />
                 <div>
                   <p className="text-primaryDark">{description}</p>
