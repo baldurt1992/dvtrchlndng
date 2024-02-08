@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // otras configuraciones pueden ir aquí...
+  output: {
+    // configuración de salida
+    export: true,
+  },
+};
+
+module.exports = nextConfig;

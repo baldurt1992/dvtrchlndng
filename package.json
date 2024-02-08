@@ -2,17 +2,19 @@
   "name": "bank-website",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://baldurt1992.github.io/dvtrchlndng",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "rimraf dist/ && yarn run build",
-    "deploy": "cross-env NODE_ENV=production firebase deploy --only functions,hosting"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "firebase": "^10.8.0",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.1.1",
     "next": "13.5.4",
     "react": "^18",
     "react-countup": "^6.4.2",
