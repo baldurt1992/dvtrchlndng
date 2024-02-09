@@ -20,9 +20,9 @@ export function CtaDark() {
     console.log(formData); // Puedes manejar la lógica de envío del formulario aquí
   };
   return (
-    <div className="px-6 mb-32 mt-0 md:mt-0 md:mb-0">
+    <div className="form-container px-6 mb-32 mt-0 md:mt-0 md:mb-0">
       <div className="max-w-7xl h-auto px-4 py-4 mx-auto  md:px-16 md:py-12 rounded-3xl">
-        <div className="grid items-center md:grid-cols-2">
+        <div className="form-contact grid items-center md:grid-cols-2">
           <div className="my-8">
             <div>
               <h3 className="text-5xl leading-tight md:text-6xl font-semibold md:leading-tight">
@@ -50,9 +50,9 @@ export function CtaDark() {
             </div>
           </div>
 
-          <div className="max-w-md mx-auto md:w-80 md:h-full mt-0 p-6 bg-gray-100 rounded-lg shadow-md">
+          <div className="max-w-md mx-auto md:w-100 form-section md:h-full mt-0 p-6 bg-gray-100 rounded-lg shadow-md">
             <form onSubmit={handleSubmit}>
-              <div className="mb-4">
+              <div className="mb-4 ">
                 <label
                   className="block text-gray-700 text-sm font-bold mb-2"
                   htmlFor="nombre"
