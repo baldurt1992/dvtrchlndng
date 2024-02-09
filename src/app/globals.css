@@ -2,21 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --black: #000000ff;
+  --white: #ffffffff;
+  --oxford-blue: #00153bff;
+  --coquelicot: #ff620e;
+  --platinum: #e2e2e2ff;
+  --red: #e92b2b;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: #1a1a1a;
-  color: #fff;
+  color: var(--white);
   width: 100%;
   height: 100vh;
   max-width: 100%;
   overflow-x: hidden;
-}
-
-::selection {
-  background: rgba(94, 0, 218, 0.6)8;
 }
 
 .degradedBlue {
@@ -78,12 +83,17 @@ body {
     font-size: 10px;
   }
 
+  .button-header {
+    display: none;
+  }
+
+
   .background-contact p {
     font-size: 15px;
   }
 
   .background-contact {
-    height: 26rem;
+    height: 28rem;
   }
 
   .background-contact h2 span {
@@ -215,7 +225,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #3a86ff, #74a9ff);
     margin: 0 auto;
   }
 
@@ -376,30 +385,21 @@ body {
   align-items: center;
   padding: 2%;
   font-size: 10px;
-  background: linear-gradient(to right, #ffbe0bbb, #fb5407b7);
+  background: linear-gradient(to right, #ff620e, #e92b2b);
   border-radius: 10px;
   margin-top: 8em;
   justify-content: center;
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  transition: background-color 0.5s ease, transform 0.5s ease;
 }
 
 .form-button {
-  background: linear-gradient(to right, #ffbe0b, #fb5407);
+  background: linear-gradient(to right, #ff620e, #e92b2b);
 }
 
 .form-button:hover {
   opacity: 0.7;
-}
-
-@media (min-width: 1920px) {
-  .card-container:hover {
-    background: linear-gradient(to right, #ffbe0b, #fb5607);
-    transform: scale(110%);
-  }
-
 }
 
 .text-center {
@@ -465,7 +465,7 @@ body {
 }
 
 .shadow-cards:hover .text-gradient {
-  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  background: linear-gradient(to right, #ff620e, #e92b2b);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -535,7 +535,7 @@ body {
 
 
 .links-nav:hover {
-  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  background: linear-gradient(to right, #ff620e, #e92b2b);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -543,8 +543,8 @@ body {
 }
 
 .btn-bg.bg-2 .btn-2 button {
-  color: #000;
-  background: linear-gradient(to right, #ffbe0b, #fb5607);
+  color: var(--white);
+  background: linear-gradient(to right, #ff620e, #e92b2b);
   border: none;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
@@ -558,7 +558,7 @@ body {
 
 .btn-bg.bg-2 .btn-2 button:hover {
   background: transparent;
-  color: #f8f8f8;
+  color: #ff4000ff;
 }
 
 .btn-bg.bg-2 .btn-2 button:hover:before,
@@ -576,7 +576,7 @@ body {
   left: 0px;
   width: 0px;
   height: 3px;
-  background: linear-gradient(to right, #8338ec, #fb5607);
+  background: linear-gradient(to right, #00153bff, #ff4000ff);
   transition: all 0.7s ease;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.404)
 }
@@ -631,7 +631,7 @@ button a {
 }
 
 .background-contact {
-  background: linear-gradient(to right, #2d7dff, #83d2ff, #5162ff);
+  background: linear-gradient(to right, rgb(240, 240, 240), rgb(209, 208, 208), #ffffffff);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -17,9 +17,9 @@ const config: Config = {
         radialBlack:
           "linear-gradient(225.95deg, #ffffff 0%, #6d6d6d 0%, #11101d 91.61%)",
         blueRadial:
-          "linear-gradient(to right, #8338ec, #6e3aff)",
+          "linear-gradient(to right, #ff620e, #e92b2b)",
         blueLight:
-          "linear-gradient(to right, #ffbe0b, #fb5607, #3a86ff)",
+          "linear-gradient(to right, #ff620e, #e92b2b, #ff620e)",
         color1:
         "#ffbe0b",
         color2:

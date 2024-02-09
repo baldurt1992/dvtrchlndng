@@ -6,7 +6,7 @@ import { ContactButton } from "../ContactButton/ContactButton";
 export function Contact() {
   return (
     <div className="background-contact p-2 md:py-2" id="Contact">
-      <div className="p-4 grid max-w-7xl gap-10 mx-auto my-0 md:grid-cols-2 place-items-center">
+      <div className="p-4 grid max-w-7xl md:gap-10 mx-auto my-0 md:grid-cols-2 place-items-center">
         <div>
           <div className="max-w-lg">
             <h2 className="text-4xl md:text-7xl mb-10 font-semibold">

@@ -1,1 +1,29 @@
 node_modules
+# Directorios y archivos generados automáticamente
+node_modules/
+*.tmp
+*~
+
+# Archivos de construcción y compilación
+/build/
+/dist/
+/out/
+*.exe
+
+# Archivos de configuración local
+.env
+.env.local
+.vscode/
+.idea/
+
+# Archivos de registro y depuración
+*.log
+*.debug.log
+
+# Archivos de dependencias específicos
+package-lock.json
+yarn.lock
+
+# Archivos sensibles o privados
+*.secret
+*.key

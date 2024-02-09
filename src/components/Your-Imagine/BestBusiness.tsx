@@ -10,7 +10,8 @@ export function BestBusiness() {
       <div className="grid max-w-5xl mx-auto md:grid-cols-2">
         <div className="title-imagine">
           <h2 className="text-5xl font-semibold leading-snug">
-            <span>Tú lo imaginas, nosotros lo</span>
+            <span className="block">Tú lo imaginas, </span>
+            <span className="block">nosotros lo</span>
             <span className="block degradedBlue bg-blueLight">creamos</span>
           </h2>
           <p className="max-w-md mt-10 text-imagine">
