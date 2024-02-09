@@ -1,10 +1,10 @@
-import { BestBusiness } from "@/components/Your-Imagine";
-import { Services } from "@/components/Services";
-import { FirstBlock } from "@/components/FirstBlock";
-import { Footer } from "@/components/Footer";
-import { PaymentsMethods } from "@/components/Space";
-import { Header } from "@/components/Header";
-import { Contact } from "@/components/Contact";
+import { BestBusiness } from "@/components/Your-Imagine/BestBusiness";
+import { Services } from "@/components/Services/CounterData";
+import { FirstBlock } from "@/components/FirstBlock/FirstBlock";
+import { Footer } from "@/components/Footer/Footer";
+import { PaymentsMethods } from "@/components/Space/Space";
+import { Header } from "@/components/Header/Header";
+import { Contact } from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
