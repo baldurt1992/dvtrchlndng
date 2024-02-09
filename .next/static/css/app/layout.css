@@ -1302,9 +1302,13 @@ button a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #7b08ff, #c267ff);
+    background: linear-gradient(to right, #3a86ff, #74a9ff);
     margin: 0 auto;
   }
+}
+
+.button-contact button:active {
+  transition: none;
 }
 
 .hover\:bg-blue-700:hover {
