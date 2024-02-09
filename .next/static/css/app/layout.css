@@ -647,9 +647,6 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
-.mt-8 {
-  margin-top: 2rem;
-}
 .block {
   display: block;
 }
@@ -871,10 +868,6 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -895,9 +888,6 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
-}
-.leading-8 {
-  line-height: 2rem;
 }
 .text-black {
   --tw-text-opacity: 1;
@@ -1369,10 +1359,6 @@ button a {
     display: none;
   }
 
-  .md\:h-80 {
-    height: 20rem;
-  }
-
   .md\:h-full {
     height: 100%;
   }
@@ -1450,10 +1436,6 @@ button a {
 
   .md\:pb-40 {
     padding-bottom: 10rem;
-  }
-
-  .md\:pt-64 {
-    padding-top: 16rem;
   }
 
   .md\:pt-40 {
