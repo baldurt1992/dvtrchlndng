@@ -795,10 +795,6 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1283,7 +1279,7 @@ button a {
 }
 
 .background-contact {
-  background: linear-gradient(to right, #7b08ff, #c267ff);
+  background: linear-gradient(to right, #3a86ff, #74a9ff);
   height: 35em;
   width: 100%;
   display: flex;
@@ -1407,11 +1403,6 @@ button a {
 
   .md\:p-8 {
     padding: 2rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:px-16 {
