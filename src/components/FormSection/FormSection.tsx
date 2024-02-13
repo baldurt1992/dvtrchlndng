@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { sendEmail } from '../../api/api';
 
 export function CtaDark() {
   const [formData, setFormData] = useState({
     nombre: "",
     correo: "",
     mensaje: "",
+    telefono: "",
   });
 
   const handleChange = (e: { target: { name: any; value: any } }) => {
@@ -16,8 +18,34 @@ export function CtaDark() {
   };
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
+    e.preventDefault()
     console.log(formData); // Puedes manejar la lógica de envío del formulario aquí
+
+  const url = 'http://localhost:8000/send-email'; // Replace with your API endpoint
+  const options = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(formData)
+};
+
+fetch(url, options)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json(); // Parse response body as JSON
+  })
+  .then(data => {
+    console.log('POST request succeeded with JSON response:', data);
+    // Handle response data
+  })
+  .catch(error => {
+    console.error('There was a problem with the POST request:', error);
+    // Handle error
+  });
+    
   };
   return (
     <div className="form-container px-6 mb-32 mt-0 md:mt-0 md:mb-0">
@@ -72,6 +100,23 @@ export function CtaDark() {
               <div className="mb-4">
                 <label
                   className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="telefono"
+                >
+                  Teléfono
+                </label>
+                <input
+                  className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="phone"
+                  type="phone"
+                  name="telefono"
+                  value={formData.telefono}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
                   htmlFor="correo"
                 >
                   Correo Electrónico
@@ -99,6 +144,7 @@ export function CtaDark() {
                   name="mensaje"
                   value={formData.mensaje}
                   onChange={handleChange}
+                  maxLength={300}
                   rows={4}
                   required
                 ></textarea>
