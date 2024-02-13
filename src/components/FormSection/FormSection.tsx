@@ -18,7 +18,6 @@ export function CtaDark() {
   };
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
-    e.preventDefault()
     console.log(formData); // Puedes manejar la lógica de envío del formulario aquí
 
   const url = 'http://localhost:8000/send-email'; // Replace with your API endpoint
