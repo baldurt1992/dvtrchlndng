@@ -390,6 +390,11 @@ body {
     display: block;
   }
 
+  .margin-container-global {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
   .mobile-view {
     margin-bottom: 0;
   }
