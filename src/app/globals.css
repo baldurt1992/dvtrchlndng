@@ -31,12 +31,6 @@ body {
   max-width: 1920px;
 }
 
-.text-card {
-  line-height: 1.5;
-  letter-spacing: 0.07em;
-  width: auto;
-}
-
 .margin-container-global {
   margin-top: 6em;
   margin-bottom: 6em;
@@ -65,7 +59,7 @@ body {
 
 .whatsapp-button-desktop {
   position: fixed;
-  bottom: 200px;
+  bottom: 25px;
   right: 10px;
   display: flex;
   justify-content: flex-end;
@@ -91,7 +85,7 @@ body {
 
   .text-services h2 {
     margin-bottom: -40px;
-    text-align: center;
+    text-align: start;
   }
 
   .title-mobile {
@@ -146,16 +140,8 @@ body {
     font-size: 2.4rem;
   }
 
-  .text-card {
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.07em;
-    height: 100%;
-    width: auto;
-  }
-
   .text-imagine2 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .button-visible {
@@ -198,15 +184,12 @@ body {
     margin: 0;
   }
 
-  .text-card {
-    font-size: 12px;
-    line-height: 1.5;
-    height: 100%;
-    width: auto;
-  }
-
   .button-visible {
     margin-top: 10%;
+  }
+
+  .text-imagine2 {
+    font-size: 12px;
   }
 
 }
@@ -290,13 +273,6 @@ body {
 
   }
 
-  .text-card {
-    font-size: 16px;
-    line-height: 1.5;
-    height: 100%;
-    width: auto;
-  }
-
   .background-contact {
     height: 40em;
     max-width: 1550px;
@@ -334,6 +310,11 @@ body {
     margin-top: 10%;
   }
 
+  .card-container {
+    margin-top: 24rem;
+    margin-bottom: 12rem;
+  }
+
   .whatsapp-button {
     display: none;
   }
@@ -343,7 +324,6 @@ body {
   }
 
   .margin-container-global {
-    margin-top: 12em;
     margin-bottom: 12em;
   }
 
@@ -364,7 +344,7 @@ body {
 
   .mobile-view {
     margin-left: 0;
-    margin-bottom: 19em;
+    margin-bottom: 13rem;
   }
 
   .title-mobile span {
@@ -390,13 +370,6 @@ body {
     font-size: 50px;
   }
 
-  .text-card {
-    font-size: 18px;
-    line-height: 1.5;
-    height: 100%;
-    width: auto;
-  }
-
   .form-contact {
     gap: 15px;
   }
@@ -415,6 +388,10 @@ body {
 @media (min-width: 1920px) {
   .button-contact {
     display: block;
+  }
+
+  .mobile-view {
+    margin-bottom: 0;
   }
 
   .mobile-view p {
@@ -468,15 +445,9 @@ body {
   }
 
   .card-container {
-    height: 45rem;
-    width: 100rem;
-  }
-
-  .text-card {
-    font-size: 16px;
-    line-height: 1.5;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 1920px;
   }
 
   .background-contact {
@@ -513,11 +484,11 @@ body {
   align-items: center;
   padding: 3%;
   font-size: 10px;
-  background: linear-gradient(to right, rgb(240, 240, 240), #ffffffff);
-  border-radius: 10px;
+  background: rgb(255, 255, 255);
   justify-content: center;
   max-width: 100%;
   overflow: hidden;
+  max-width: 1920px;
 }
 
 .form-button {
@@ -555,64 +526,39 @@ body {
   font-size: 32px;
 }
 
-.shadow-cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
-  cursor: pointer;
-  transition: all ease-in-out 350ms;
-  width: 18rem;
-  min-height: 350px;
-}
-
-@media (min-width:767px) {
-  .shadow-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
-    cursor: pointer;
-    transition: all ease-in-out 350ms;
-    width: 18rem;
-    min-height: 100%;
-  }
-}
-
-.shadow-cards:hover {
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.699);
-  background-color: #1a1a1a;
-  color: #fff;
-  transform: scale(107%);
-}
-
 .text-gradient {
-  background: #1a1a1a;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.shadow-cards:hover .text-gradient {
-  background: linear-gradient(to right, #ff620e, #e92b2b);
+  background: #fff;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .degradable {
-  color: #1a1a1a;
+  color: #fff;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-
-.degradable:hover {
-  background: linear-gradient(to right, #ffbe0b, #fb5607);
+.group:hover .text-gradient {
+  background: linear-gradient(to right, #ff620e, #e92b2b);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.group:hover .degradable {
+  background: linear-gradient(to right, #ff620e, #e92b2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cards .rounded-xl {
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.178);
+  background-size: cover;
+  background-position: center;
 }
 
 @keyframes swipe {

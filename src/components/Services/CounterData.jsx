@@ -3,6 +3,7 @@
 import { dataCounter } from "./CounterData.data";
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 export function Services() {
   const [clickKey, setClickKey] = useState(0);
@@ -16,29 +17,175 @@ export function Services() {
     <div className="max-w-8xl card-container margin-container-global mx-auto">
       <div className="p-8 h-full">
         <div className="text-start text-services mb-24 mt-0">
-          <h2 className="text-7xl degradedBlue bg-blueLight font-bold title-mobile">Servicios</h2>
+          <h2 className="text-7xl degradedBlue bg-blueLight font-bold title-mobile justify-start">
+            Servicios
+          </h2>
         </div>
-        <div className="cards max-w-scree-lg mx-auto grid gap-4 place-items-center">
-          {dataCounter.map(({ id, text, description, caracteristicas, caracteristicas2, caracteristicas3, caracteristicas4, caracteristicas5 }) => (
-            <div
-              key={id}
-              className="p-4 md:p-4 shadow-cards bg-white text-center text-black rounded-xl"
-            >
-              <span className="cursor-pointer header-card text-gradient flex flex-row font-light">
-                {text}
-              </span>
-              <p className="w-full mb-4 mt-4 text-card text-start font-thin flex content-end">
-                {description}
-              </p>
-                <ol className="list-disc text-sm  text-start pl-4">
-                {caracteristicas && <li>{caracteristicas}</li>}
-                {caracteristicas2 && <li>{caracteristicas2}</li>}
-                {caracteristicas3 && <li>{caracteristicas3}</li>}
-                {caracteristicas4 && <li>{caracteristicas4}</li>}
-                {caracteristicas5 && <li>{caracteristicas5}</li>}
-                </ol>
+        <div className="rounded-lg cards max-w-scree-lg mx-auto grid gap-4 place-items-center">
+          <div className="cursor-pointer group relative block bg-black rounded-xl ">
+            <Image
+              width={1920}
+              height={1920}
+              alt=""
+              src="/assets/landing.jpg"
+              className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
+            />
+
+            <div className="relative p-4 sm:p-6 lg:p-8">
+              <div className="degradable text-gradient">
+                <p className="text-sm font-medium uppercase  tracking-widest text-white-500">
+                  Desarrollo de
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-4xl degradable text-gradient py-2">
+                  Landing Page
+                </p>
+              </div>
+
+              <div className="mt-8 sm:mt-8 lg:mt-8 ">
+                <div className="translate-y-8 transform opacity-0 transition-all -z-10 group-hover:translate-y-0 group-hover:opacity-100">
+                  <ul className="text-sm text-white">
+                    <li>
+                      Recopila información valiosa de clientes potenciales,
+                      impulsando estrategias de marketing.
+                    </li>
+                    <br />
+                    <li>
+                      Ideal para campañas de lanzamiento, campañas publicitarias
+                      y todo lo relacionado al posicionamiento de un producto o
+                      servicio.
+                    </li>
+                    <br />
+                    <li>
+                      Diseñada específicamente para convertir visitantes en
+                      leads o clientes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          ))}
+          </div>
+          <div className="cursor-pointer group relative block bg-black rounded-xl">
+            <Image
+              width={1920}
+              height={1920}
+              alt=""
+              src="/assets/sitio.jpg"
+              className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
+            />
+
+            <div className="relative p-4 sm:p-6 lg:p-8">
+              <div className="degradable text-gradient">
+                <p className="text-sm font-medium uppercase  tracking-widest text-white-500">
+                  Desarrollo de
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-4xl margin-title degradable text-gradient py-2">
+                  Sitios web
+                </p>
+              </div>
+
+              <div className="mt-4 sm:mt- lg:mt-4">
+                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                  <ul className="text-sm text-white">
+                    <li>Accesibilidad universal y aplicaciones híbridas.</li>
+                    <br />
+                    <li>
+                      Visualización de datos importantes y administración
+                      empresarial.
+                    </li>
+                    <br />
+                    <li>Diseño adaptable a todas las necesidades.</li>
+                    <br />
+                    <li>Integraciones éxitosas.</li>
+                    <br />
+                    <li>Eficiencia operativa. </li>
+                    <br />
+                    <li>Despliegue a tiendas. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cursor-pointer group relative block bg-black rounded-xl">
+            <Image
+              width={1920}
+              height={1920}
+              alt=""
+              src="/assets/ecommerce.jpg"
+              className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
+            />
+
+            <div className="relative p-4 sm:p-6 lg:p-8">
+              <div className="degradable text-gradient">
+                <p className="text-sm font-medium uppercase  tracking-widest text-white-500">
+                  Desarrollo de
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-4xl margin-title degradable text-gradient py-2">
+                  Ecommerce
+                </p>
+              </div>
+
+              <div className="mt-8 sm:mt-8 lg:mt-8">
+                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                  <ul className="text-sm text-white">
+                    <li>Expansión global</li>
+                    <br />
+                    <li>Ventas 24/7</li>
+                    <br />
+                    <li>Eficiencia operativa y reducción de costos.</li>
+                    <br />
+                    <li>Crecimiento rápido.</li>
+                    <br />
+                    <li>Acceso desde cualquier dispositivo. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cursor-pointer group relative block bg-black rounded-xl">
+            <Image
+              width={1920}
+              height={1920}
+              alt=""
+              src="/assets/apps.jpg"
+              className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
+            />
+
+            <div className="relative p-4 sm:p-6 lg:p-8">
+              <div className="degradable text-gradient">
+                <p className="text-sm font-medium uppercase  tracking-widest text-white-500">
+                  Desarrollo de
+                </p>
+
+                <p className="text-xl font-bold text-white sm:text-4xl margin-title degradable text-gradient py-2">
+                  Apps
+                </p>
+              </div>
+
+              <div className="mt-8 sm:mt-8 lg:mt-8">
+                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                  <ul className="text-sm text-white">
+                    <li>Accesibilidad universal y aplicaciones híbridas.</li>
+                    <br />
+                    <li>
+                      Visualización de datos importantes y administración
+                      empresarial.
+                    </li>
+                    <br />
+                    <li>Diseño adaptable a todas las necesidades.</li>
+                    <br />
+                    <li>Integraciones éxitosas.</li>
+                    <br />
+                    <li>Eficiencia operativa. </li>
+                    <br />
+                    <li>Despliegue a tiendas. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="btn-bg bg-2 flex md:justify-center whatsapp-cards items-center">
           <div
