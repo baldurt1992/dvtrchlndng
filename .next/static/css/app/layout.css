@@ -1,3 +1,90 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Poppins","arguments":[{"weight":["400","600","700"],"subsets":["latin"]}],"variableName":"popinsFont"} ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/87c72f23c47212b9-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/591327bf3b62a611-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/916d3686010a8de2-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/3828f203592f7603-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/10939feefdad71be-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/d869208648ca5469-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/20b8b8f6f47c1e10-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/f93b79c1ea023ab6-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Poppins_ca2475';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/9a881e2ac07d406b-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Poppins_Fallback_ca2475';src: local("Arial");ascent-override: 92.33%;descent-override: 30.78%;line-gap-override: 8.79%;size-adjust: 113.73%
+}.__className_ca2475 {font-family: '__Poppins_ca2475', '__Poppins_Fallback_ca2475';font-style: normal
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
@@ -498,6 +585,9 @@ video {
 .static {
   position: static;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -507,8 +597,20 @@ video {
 .left-0 {
   left: 0px;
 }
+.top-0 {
+  top: 0px;
+}
 .top-1\/2 {
   top: 50%;
+}
+.-z-10 {
+  z-index: -10;
+}
+.-z-20 {
+  z-index: -20;
+}
+.z-40 {
+  z-index: 40;
 }
 .mx-auto {
   margin-left: auto;
@@ -533,14 +635,14 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
-.mb-16 {
-  margin-bottom: 4rem;
-}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mb-24 {
+  margin-bottom: 6rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -554,9 +656,6 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-16 {
-  margin-top: 4rem;
-}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -565,6 +664,9 @@ video {
 }
 .mt-5 {
   margin-top: 1.25rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -581,17 +683,26 @@ video {
 .h-auto {
   height: auto;
 }
+.h-full {
+  height: 100%;
+}
 .w-full {
   width: 100%;
 }
 .max-w-5xl {
   max-width: 64rem;
 }
+.max-w-6xl {
+  max-width: 72rem;
+}
 .max-w-7xl {
   max-width: 80rem;
 }
 .max-w-\[250px\] {
   max-width: 250px;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .max-w-lg {
   max-width: 32rem;
@@ -618,6 +729,9 @@ video {
 .resize-none {
   resize: none;
 }
+.list-disc {
+  list-style-type: disc;
+}
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -631,9 +745,6 @@ video {
 }
 .flex-col {
   flex-direction: column;
-}
-.flex-wrap {
-  flex-wrap: wrap;
 }
 .place-items-center {
   place-items: center;
@@ -739,10 +850,6 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -751,8 +858,8 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.pt-24 {
-  padding-top: 6rem;
+.pl-4 {
+  padding-left: 1rem;
 }
 .text-center {
   text-align: center;
@@ -780,6 +887,10 @@ video {
   font-size: 4.5rem;
   line-height: 1;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -799,9 +910,6 @@ video {
 }
 .font-thin {
   font-weight: 100;
-}
-.leading-normal {
-  line-height: 1.5;
 }
 .leading-snug {
   line-height: 1.375;
@@ -837,6 +945,9 @@ video {
   --coquelicot: #ff620e;
   --platinum: #e2e2e2ff;
   --red: #e92b2b;
+  --text: 18px;
+  --spacing: 0.07em;
+  --title: 65px;
 }
 
 html {
@@ -852,6 +963,30 @@ body {
   overflow-x: hidden;
 }
 
+.whatsapp-button-desktop {
+  max-width: 1920px;
+}
+
+.text-card {
+  line-height: 1.5;
+  letter-spacing: 0.07em;
+  width: auto;
+}
+
+.margin-container-global {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.navbar {
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 10%;
+  border-bottom: 1px solid white;
+  background: #1a1a1a;
+  z-index: 30;
+}
+
 .degradedBlue {
   background-clip: text;
   -webkit-background-clip: text;
@@ -862,45 +997,54 @@ body {
 .mobile-view {
   margin-top: 2em;
   height: 77vh;
-  margin-bottom: 170px;
-  font-size: 0.8rem;
-
 }
 
-@media (min-width: 279px) {
-  .title-mobile {
-    font-size: 2.5rem;
-  }
+.whatsapp-button-desktop {
+  position: fixed;
+  bottom: 200px;
+  right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.whatsapp-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
 }
 
 @media (min-width: 280px) {
+  .whatsapp-button-desktop {
+    display: none;
+  }
+
   .mobile-view {
-    margin-top: 2em;
+    margin-top: 11em;
     height: 78.5vh;
-    margin-bottom: 63px;
     font-size: 0.7rem;
   }
 
-  .text-card {
-    font-size: 11px;
+  .text-services h2 {
+    margin-bottom: -40px;
+    text-align: center;
+  }
+
+  .title-mobile {
+    font-size: 2.4rem;
+  }
+
+  .text-p {
+    font-size: 0.8em;
+    letter-spacing: 0.07em;
+    width: 100%;
+    line-height: 1.5;
   }
 
   .button-visible {
     display: block;
-    margin-top: -20px;
+    margin-top: 10%;
 
-  }
-
-  .title-mobile {
-    font-size: 2rem;
-  }
-
-  .title-imagine h2 span {
-    font-size: 40px;
-  }
-
-  .text-imagine {
-    font-size: 14px;
   }
 
   .text-imagine2 {
@@ -915,17 +1059,8 @@ body {
     display: none;
   }
 
-
-  .background-contact p {
-    font-size: 15px;
-  }
-
   .background-contact {
     height: 28rem;
-  }
-
-  .background-contact h2 span {
-    font-size: 40px;
   }
 
   .form-container {
@@ -940,24 +1075,32 @@ body {
 
 @media (min-width: 376px) {
   .mobile-view {
-    height: 94vh;
     font-size: 1rem;
-    margin-bottom: -105px;
   }
 
   .title-mobile {
-    font-size: 3.5rem;
+    font-size: 2.4rem;
   }
 
   .text-card {
     font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.07em;
+    height: 100%;
+    width: auto;
+  }
+
+  .text-imagine2 {
+    font-size: 16px;
+  }
+
+  .button-visible {
+    margin-top: 10%;
   }
 }
 
 @media (min-width: 389px) {
-  .mobile-view {
-    margin-bottom: 25px;
-  }
+
 
   .form-section {
     margin: 0;
@@ -966,7 +1109,25 @@ body {
 
 @media (min-width: 412px) and (max-width: 429px) {
   .mobile-view {
+    height: 72vh;
+    margin-top: 10em;
+  }
+
+  .title-mobile {
+    font-size: 3rem;
+  }
+
+  .text-p {
+    font-size: 12px;
+    letter-spacing: 0.07em;
+    width: 100%;
+    line-height: 2em;
+  }
+
+  .text-services h2 {
+    font-size: 50px;
     margin-bottom: -40px;
+    text-align: center;
   }
 
   .form-section {
@@ -975,22 +1136,18 @@ body {
 
   .text-card {
     font-size: 12px;
+    line-height: 1.5;
+    height: 100%;
+    width: auto;
   }
-}
 
-
-
-@media (min-width: 430px) {
-  .mobile-view {
-    margin-bottom: -50px;
+  .button-visible {
+    margin-top: 10%;
   }
 
 }
 
 @media (min-width: 540px) and (max-width: 766px) {
-  .mobile-view {
-    margin-bottom: 75px;
-  }
 
   .form-section {
     margin: 0;
@@ -999,17 +1156,48 @@ body {
 
 @media (min-width: 767px) {
   .mobile-view {
-    margin-top: 0;
     height: 45rem;
-    margin-bottom: 0;
+  }
+
+  .title-mobile {
+    font-size: 3rem;
+  }
+
+  .text-p {
+    font-size: 1em;
+    letter-spacing: 0.07em;
+    width: 100%;
+    line-height: 2em;
   }
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
   .mobile-view {
-    font-size: 1rem;
     margin-left: 0;
-    margin-bottom: 151px;
+  }
+
+  .whatsapp-button {
+    display: none;
+  }
+
+  .whatsapp-button-desktop {
+    display: block;
+  }
+
+  .margin-container-global {
+    margin-top: 6em;
+    margin-bottom: 6em;
+  }
+
+  .title-mobile {
+    font-size: 3rem;
+  }
+
+  .text-p {
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    width: 100%;
+    line-height: 2em;
   }
 
   .animation {
@@ -1017,9 +1205,6 @@ body {
     margin-top: -10px;
   }
 
-  .title-mobile {
-    margin-bottom: 25px;
-  }
 
   .button-header {
     display: none;
@@ -1028,13 +1213,13 @@ body {
   .button-visible {
     display: block;
     width: 65%;
-    margin-top: -50px;
+    margin-top: 10%;
 
   }
 
   .cards {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -1043,10 +1228,13 @@ body {
 
   .text-card {
     font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+    width: auto;
   }
 
   .background-contact {
-    height: 35em;
+    height: 40em;
     max-width: 1550px;
     width: 100%;
     font-size: 13.5px;
@@ -1054,6 +1242,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+
+  .text-imagine2 {
+    font-size: 16px;
   }
 
   .img-phone {
@@ -1075,13 +1267,40 @@ body {
   .button-visible {
     display: block;
     width: 60%;
-    margin-top: -50px;
+    margin-top: 10%;
+  }
+
+  .whatsapp-button {
+    display: none;
+  }
+
+  .whatsapp-button-desktop {
+    display: block;
+  }
+
+  .margin-container-global {
+    margin-top: 12em;
+    margin-bottom: 12em;
+  }
+
+  .title-mobile {
+    font-size: 65px;
+  }
+
+  .text-imagine2 {
+    font-size: 20px;
+  }
+
+  .text-p {
+    font-size: 1.3em;
+    letter-spacing: 0.07em;
+    width: 100%;
+    line-height: 2em;
   }
 
   .mobile-view {
-    font-size: 1.3rem;
     margin-left: 0;
-    margin-bottom: 151px;
+    margin-bottom: 19em;
   }
 
   .title-mobile span {
@@ -1107,20 +1326,15 @@ body {
     font-size: 50px;
   }
 
-  .background-contact p {
-    font-size: 18px;
-  }
-
   .text-card {
     font-size: 18px;
+    line-height: 1.5;
+    height: 100%;
+    width: auto;
   }
 
   .form-contact {
     gap: 15px;
-  }
-
-  .form-contact p {
-    font-size: 20px;
   }
 
   .form-section {
@@ -1132,17 +1346,32 @@ body {
   .text-imagine {
     font-size: 20px;
   }
-
-  .text-imagine2 {
-    font-size: 17px;
-  }
-
-
 }
 
 @media (min-width: 1920px) {
   .button-contact {
     display: block;
+  }
+
+  .mobile-view p {
+    font-size: 1em;
+    letter-spacing: var(--spacing);
+  }
+
+  .whatsapp-button-desktop {
+    transition: transform ease-in-out 0.2s;
+  }
+
+  .text-p {
+    font-size: 1em;
+  }
+
+  .text-imagine2 {
+    font-size: 1em;
+  }
+
+  .whatsapp-button-desktop:hover {
+    transform: scale(115%);
   }
 
   .button-visible {
@@ -1157,11 +1386,16 @@ body {
     font-size: 50px;
   }
 
+  .title-mobile {
+    font-size: 65px;
+  }
+
   .navbar {
     gap: 800px;
-    margin: 0 auto;
-    max-width: 1920px;
-    min-width: 10%;
+  }
+
+  .animation {
+    margin-left: 20%;
   }
 
   .cards {
@@ -1170,12 +1404,15 @@ body {
   }
 
   .card-container {
-    height: 48rem;
+    height: 45rem;
     width: 100rem;
   }
 
   .text-card {
     font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+    width: auto;
   }
 
   .background-contact {
@@ -1202,23 +1439,20 @@ body {
   }
 }
 
-
-
 .height-container {
   height: 500px;
 }
 
 .card-container {
   display: flex;
+  height: auto;
   align-items: center;
-  padding: 2%;
+  padding: 3%;
   font-size: 10px;
-  background: linear-gradient(to right, #ff620e, #e92b2b);
+  background: linear-gradient(to right, rgb(240, 240, 240), #ffffffff);
   border-radius: 10px;
-  margin-top: 8em;
   justify-content: center;
   max-width: 100%;
-  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -1248,33 +1482,38 @@ body {
 }
 
 .header-card {
-  height: auto;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
+  font-size: 32px;
 }
 
 .shadow-cards {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
   cursor: pointer;
   transition: all ease-in-out 350ms;
-  background: #eeeeee;
-  height: 15rem;
   width: 18rem;
-
+  min-height: 350px;
 }
 
 @media (min-width:767px) {
   .shadow-cards {
-    height: 20rem;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
+    cursor: pointer;
+    transition: all ease-in-out 350ms;
+    width: 18rem;
+    min-height: 100%;
   }
 }
 
@@ -1312,19 +1551,6 @@ body {
   color: transparent;
 }
 
-.swiper-pagination-bullet {
-  background: #fff !important;
-}
-
-.swiper-pagination-bullet-active {
-  background: rgba(94, 0, 218, 0.6) !important;
-}
-
-.slider-horizontal {
-  display: flex;
-  animation: swipe 5000ms linear infinite backwards;
-}
-
 @keyframes swipe {
   0% {
     transform: translate(0);
@@ -1339,16 +1565,18 @@ body {
   width: 100%;
 }
 
-
-.navbar {
-  margin-bottom: 0;
-
-}
-
 @media (min-width: 767px) and (max-width: 1919px) {
   .navbar {
     margin: 0 auto;
     min-width: 10%;
+  }
+
+  .whatsapp-button {
+    display: none;
+  }
+
+  .whatsapp-button-desktop {
+    display: block;
   }
 }
 
@@ -1457,7 +1685,7 @@ button a {
 }
 
 .background-contact {
-  background: linear-gradient(to right, rgb(240, 240, 240), rgb(209, 208, 208), #ffffffff);
+  background: linear-gradient(to right, rgb(240, 240, 240), #ffffffff);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1467,6 +1695,11 @@ button a {
 
 .button-contact button:active {
   transition: none;
+}
+
+.logo {
+  height: auto;
+  width: auto;
 }
 
 .hover\:bg-blue-700:hover {
@@ -1501,8 +1734,8 @@ button a {
     margin-top: 0.5rem;
   }
 
-  .md\:mt-24 {
-    margin-top: 6rem;
+  .md\:mt-52 {
+    margin-top: 13rem;
   }
 
   .md\:mt-8 {
@@ -1582,26 +1815,8 @@ button a {
     padding-bottom: 0.5rem;
   }
 
-  .md\:py-64 {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
-  }
-
-  .md\:pb-0 {
-    padding-bottom: 0px;
-  }
-
-  .md\:pb-40 {
-    padding-bottom: 10rem;
-  }
-
-  .md\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .md\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .md\:text-6xl {
@@ -1623,90 +1838,3 @@ button a {
     line-height: 1.25;
   }
 }
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Poppins","arguments":[{"weight":["400","600","700"],"subsets":["latin"]}],"variableName":"popinsFont"} ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/* devanagari */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/87c72f23c47212b9-s.woff2) format('woff2');
-  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
-}
-/* latin-ext */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/591327bf3b62a611-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/916d3686010a8de2-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* devanagari */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(/_next/static/media/3828f203592f7603-s.woff2) format('woff2');
-  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
-}
-/* latin-ext */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(/_next/static/media/10939feefdad71be-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(/_next/static/media/d869208648ca5469-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* devanagari */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/_next/static/media/20b8b8f6f47c1e10-s.woff2) format('woff2');
-  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
-}
-/* latin-ext */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/_next/static/media/f93b79c1ea023ab6-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: '__Poppins_ca2475';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/_next/static/media/9a881e2ac07d406b-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Poppins_Fallback_ca2475';src: local("Arial");ascent-override: 92.33%;descent-override: 30.78%;line-gap-override: 8.79%;size-adjust: 113.73%
-}.__className_ca2475 {font-family: '__Poppins_ca2475', '__Poppins_Fallback_ca2475';font-style: normal
-}
-

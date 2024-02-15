@@ -6,21 +6,24 @@ import Image from "next/image";
 
 export function BestBusiness() {
   return (
-    <div className="relative px-6 py-20 md:py-64" id="features">
+    <div className="relative px-6 margin-container-global -z-10" id="features">
       <div className="grid max-w-5xl mx-auto md:grid-cols-2">
-        <div className="title-imagine">
-          <h2 className="text-5xl font-semibold leading-snug">
-            <span className="block">Tú lo imaginas, </span>
-            <span className="block">nosotros lo</span>
-            <span className="block degradedBlue bg-blueLight">creamos</span>
+        <div>
+          <h2 className="text-5xl font-semibold title-mobile leading-snug">
+            <span className="block title-mobile">Tú lo imaginas, </span>
+            <span className="block title-mobile">nosotros lo</span>
+            <span className="block degradedBlue bg-blueLight title-mobile">
+              creamos
+            </span>
           </h2>
-          <p className="max-w-md mt-10 text-imagine">
+          <p className="max-w-md mt-10 text-p">
             Imagina un mundo donde tus ideas toman forma con solo un clic. En
             nuestra empresa de desarrollo, convertimos tus sueños en soluciones
             tangibles. ¿Quieres optimizar tus procesos empresariales?
             ¿Desarrollar una aplicación única? ¿Automatizar tareas tediosas?
             Estamos aquí para hacerlo realidad.
           </p>
+          <br />
         </div>
 
         <div className="grid items-center py-5 md:p-8">

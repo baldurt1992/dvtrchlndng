@@ -9,6 +9,7 @@ body {
   top: 44%;
   left: 10%;
   perspective: 400;
+  z-index: -10;
 }
 
 .plane {

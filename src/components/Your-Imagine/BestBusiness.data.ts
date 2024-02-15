@@ -17,7 +17,7 @@ export const dataFeaturesBusiness: BestBusinessData = [
       "Crea herramientas personalizadas que impulsen el crecimiento de tu negocio.",
   },
   {
-    id: 3,
+    id: 4,
     description:
       "Automatiza tareas repetitivas para liberar tiempo y recursos valiosos.",
   },

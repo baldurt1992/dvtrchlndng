@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer/Footer.tsx";
 import { PaymentsMethods } from "@/components/Space/Space.tsx";
 import { Header } from "@/components/Header/Header.jsx";
 import { Contact } from "@/components/Contact/Contact.tsx";
+import { WathsappButton } from "@/components/WhatsappButton/WhatsappButton";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BestBusiness />
       <Contact />
       <PaymentsMethods />
+      <WathsappButton />
       <Footer />
     </>
   );
