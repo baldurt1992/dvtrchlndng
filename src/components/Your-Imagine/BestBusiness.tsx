@@ -38,7 +38,7 @@ export function BestBusiness() {
                   height={30}
                 />
                 <div>
-                  <p className="text-primaryDark">{description}</p>
+                  <p className="text-white">{description}</p>
                 </div>
               </div>
             </div>

@@ -44,18 +44,16 @@ export function Services() {
 
               <div className="mt-8 sm:mt-8 lg:mt-8 ">
                 <div className="translate-y-8 transform opacity-0 transition-all -z-10 group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="text-sm text-white">
+                  <ul className="text-sm text-white leading-8">
                     <li>
                       Recopila información valiosa de clientes potenciales,
                       impulsando estrategias de marketing.
                     </li>
-                    <br />
                     <li>
                       Ideal para campañas de lanzamiento, campañas publicitarias
                       y todo lo relacionado al posicionamiento de un producto o
                       servicio.
                     </li>
-                    <br />
                     <li>
                       Diseñada específicamente para convertir visitantes en
                       leads o clientes.
