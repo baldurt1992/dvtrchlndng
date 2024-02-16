@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -9,6 +9,7 @@ const reCaptchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_KEY || "";
 
 export function CtaDark() {
   const [isVerified, setIsVerified] = useState(false);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const handleVerifyCaptcha = (token: string | null) => {
     if (token) {
@@ -47,6 +48,9 @@ export function CtaDark() {
               mensaje: "",
               telefono: "",
             });
+            if (recaptchaRef.current) {
+              recaptchaRef.current.reset();
+            }
             setIsVerified(false);
           },
           (error) => {
