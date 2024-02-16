@@ -17,10 +17,10 @@ export function CtaDark() {
   };
 
   const [formData, setFormData] = useState({
-    nombre: "",
-    correo: "",
-    mensaje: "",
-    telefono: "",
+    nombre: '',
+    correo: '',
+    mensaje:'',
+    telefono: '',
   });
 
   const handleChange = (e: { target: { name: any; value: any } }) => {
