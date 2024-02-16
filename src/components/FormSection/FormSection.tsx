@@ -163,6 +163,7 @@ export function CtaDark() {
                   required
                 ></textarea>
                 <ReCAPTCHA
+                  ref={recaptchaRef}
                   sitekey={reCaptchaKey}
                   onChange={handleVerifyCaptcha}
                 />
