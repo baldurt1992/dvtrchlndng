@@ -32,6 +32,7 @@ export function CtaDark() {
   };
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
     if (!isVerified) {
       alert("Please verify that you are not a robot.");
       return;
@@ -39,8 +40,13 @@ export function CtaDark() {
       emailjs
         .send(emailjsServiceId, emailjsTemplateId, formData, emailjsPublicKey)
         .then(
-          (result) => {
-            console.log(result.text);
+          () => {
+            setFormData({
+              nombre: "",
+              correo: "",
+              mensaje: "",
+              telefono: "",
+            })
           },
           (error) => {
             console.log(error.text);

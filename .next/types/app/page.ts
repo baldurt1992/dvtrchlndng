@@ -1,4 +1,4 @@
-// File: E:\programacion\curso-nextjs\Landing devtorch\src\app\page.tsx
+// File: /Users/daniel.ochoam/Documents/Personal/dvtrchlndng/src/app/page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
