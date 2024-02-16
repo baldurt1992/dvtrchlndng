@@ -40,7 +40,7 @@ export function Services() {
                 </p>
 
                 <p className="text-xl font-bold text-white sm:text-4xl degradable text-gradient py-2">
-                  Landing Page
+                  Landing page
                 </p>
               </div>
 
