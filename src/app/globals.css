@@ -310,9 +310,13 @@ textarea {
 
 @media (min-width: 1024px) {
   .button-visible {
-    display: block;
+    display: none;
     width: 60%;
     margin-top: 10%;
+  }
+
+  .button-header {
+    display: block;
   }
 
   .card-container {
