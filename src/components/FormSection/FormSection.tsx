@@ -1,7 +1,21 @@
 import { useState } from "react";
-import { sendEmail } from "../../api/api";
+import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
+
+const emailjsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLICKEY;
+const emailjsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICEID;
+const emailjsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID;
+const reCaptchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_KEY;
 
 export function CtaDark() {
+  const [isVerified, setIsVerified] = useState(false);
+
+  const handleVerifyCaptcha = (token: string | null) => {
+    if (token) {
+      setIsVerified(true);
+    }
+  };
+
   const [formData, setFormData] = useState({
     nombre: "",
     correo: "",
@@ -18,33 +32,23 @@ export function CtaDark() {
   };
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
-    console.log(formData); // Puedes manejar la lógica de envío del formulario aquí
-
-    const url = "http://localhost:8000/send-email"; // Replace with your API endpoint
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    };
-
-    fetch(url, options)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json(); // Parse response body as JSON
-      })
-      .then((data) => {
-        console.log("POST request succeeded with JSON response:", data);
-        // Handle response data
-      })
-      .catch((error) => {
-        console.error("There was a problem with the POST request:", error);
-        // Handle error
-      });
+    if (!isVerified) {
+      alert("Please verify that you are not a robot.");
+      return;
+    } else {
+      emailjs
+        .send(emailjsServiceId, emailjsTemplateId, formData, emailjsPublicKey)
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
+
   return (
     <div className="form-container margin-container-global px-6 mb-20 mt-0 md:mt-0 md:mb-0">
       <div className="max-w-7xl h-auto px-4 py-4 mx-auto  md:px-16 md:py-12 rounded-3xl">
@@ -147,6 +151,10 @@ export function CtaDark() {
                   rows={4}
                   required
                 ></textarea>
+                <ReCAPTCHA
+                  sitekey={reCaptchaKey}
+                  onChange={handleVerifyCaptcha}
+                />
               </div>
               <div className="flex items-center justify-center">
                 <button

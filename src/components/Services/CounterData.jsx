@@ -9,7 +9,7 @@ export function Services() {
   const [clickKey, setClickKey] = useState(0);
 
   const handleRedirect = () => {
-    window.location.href = "https://api.whatsapp.com/send/?phone=3117261670";
+    window.location.href = "https://api.whatsapp.com/send/?phone=3105041153";
     setClickKey((prevKey) => prevKey + 1);
   };
 
