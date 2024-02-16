@@ -27,6 +27,11 @@ body {
   overflow-x: hidden;
 }
 
+input,
+textarea {
+  border: 1px solid var(--oxford-blue);
+}
+
 .whatsapp-button-desktop {
   max-width: 1920px;
 }

@@ -26,6 +26,7 @@ export function Services() {
             <Image
               width={1920}
               height={1920}
+              loading="lazy"
               alt=""
               src="/assets/landing.jpg"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
@@ -44,7 +45,7 @@ export function Services() {
 
               <div className="mt-8 sm:mt-8 lg:mt-8 ">
                 <div className="translate-y-8 transform opacity-0 transition-all -z-10 group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="text-sm text-white leading-8">
+                  <ul className="text-sm text-white leading-6">
                     <li>
                       Recopila información valiosa de clientes potenciales,
                       impulsando estrategias de marketing.
@@ -67,6 +68,7 @@ export function Services() {
             <Image
               width={1920}
               height={1920}
+              loading="lazy"
               alt=""
               src="/assets/sitio.jpg"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
@@ -85,20 +87,15 @@ export function Services() {
 
               <div className="mt-4 sm:mt- lg:mt-4">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="text-sm text-white">
+                  <ul className="text-sm text-white leading-6">
                     <li>Accesibilidad universal y aplicaciones híbridas.</li>
-                    <br />
                     <li>
                       Visualización de datos importantes y administración
                       empresarial.
                     </li>
-                    <br />
                     <li>Diseño adaptable a todas las necesidades.</li>
-                    <br />
                     <li>Integraciones éxitosas.</li>
-                    <br />
                     <li>Eficiencia operativa. </li>
-                    <br />
                     <li>Despliegue a tiendas. </li>
                   </ul>
                 </div>
@@ -109,6 +106,7 @@ export function Services() {
             <Image
               width={1920}
               height={1920}
+              loading="lazy"
               alt=""
               src="/assets/ecommerce.jpg"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
@@ -127,15 +125,11 @@ export function Services() {
 
               <div className="mt-8 sm:mt-8 lg:mt-8">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="text-sm text-white">
+                  <ul className="text-sm text-white leading-6">
                     <li>Expansión global</li>
-                    <br />
                     <li>Ventas 24/7</li>
-                    <br />
                     <li>Eficiencia operativa y reducción de costos.</li>
-                    <br />
                     <li>Crecimiento rápido.</li>
-                    <br />
                     <li>Acceso desde cualquier dispositivo. </li>
                   </ul>
                 </div>
@@ -146,8 +140,9 @@ export function Services() {
             <Image
               width={1920}
               height={1920}
+              loading="lazy"
               alt=""
-              src="/assets/apps.jpg"
+              src="/assets/app.jpg"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
             />
 
@@ -164,20 +159,15 @@ export function Services() {
 
               <div className="mt-8 sm:mt-8 lg:mt-8">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="text-sm text-white">
+                  <ul className="text-sm text-white leading-6">
                     <li>Accesibilidad universal y aplicaciones híbridas.</li>
-                    <br />
                     <li>
                       Visualización de datos importantes y administración
                       empresarial.
                     </li>
-                    <br />
                     <li>Diseño adaptable a todas las necesidades.</li>
-                    <br />
                     <li>Integraciones éxitosas.</li>
-                    <br />
                     <li>Eficiencia operativa. </li>
-                    <br />
                     <li>Despliegue a tiendas. </li>
                   </ul>
                 </div>
