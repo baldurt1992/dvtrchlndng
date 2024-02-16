@@ -2,11 +2,11 @@ node_modules
 target
 dist
 logs
-.cache
+.cache/
 .vscode
 .DS_Store
 .idea
-.next
+.next/
 yarn-error.log
 npm-debug.log
 .env
