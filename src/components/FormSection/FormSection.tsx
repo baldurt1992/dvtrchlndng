@@ -2,10 +2,10 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 
-const emailjsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLICKEY || '';
-const emailjsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICEID || '';
-const emailjsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID || '';
-const reCaptchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_KEY || '';
+const emailjsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLICKEY || "";
+const emailjsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICEID || "";
+const emailjsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID || "";
+const reCaptchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_KEY || "";
 
 export function CtaDark() {
   const [isVerified, setIsVerified] = useState(false);
@@ -17,10 +17,10 @@ export function CtaDark() {
   };
 
   const [formData, setFormData] = useState({
-    nombre: '',
-    correo: '',
-    mensaje:'',
-    telefono: '',
+    nombre: "",
+    correo: "",
+    mensaje: "",
+    telefono: "",
   });
 
   const handleChange = (e: { target: { name: any; value: any } }) => {
@@ -46,7 +46,8 @@ export function CtaDark() {
               correo: "",
               mensaje: "",
               telefono: "",
-            })
+            });
+            setIsVerified(false);
           },
           (error) => {
             console.log(error.text);
