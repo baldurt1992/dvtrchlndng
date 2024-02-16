@@ -6,7 +6,7 @@ export function ContactButton() {
   const [clickKey, setClickKey] = useState(0);
 
   const handleRedirect = () => {
-    window.location.href = "https://api.whatsapp.com/send/?phone=+573105041153";
+    window.location.href = "https://api.whatsapp.com/send/?phone=573105041153";
     setClickKey((prevKey) => prevKey + 1);
   };
 
