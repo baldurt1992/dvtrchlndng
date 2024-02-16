@@ -27,8 +27,9 @@ export function Services() {
               width={1920}
               height={1920}
               loading="lazy"
+              priority={false}
               alt=""
-              src="/assets/landing.jpg"
+              src="/assets/landing.webp"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
             />
 
@@ -69,8 +70,9 @@ export function Services() {
               width={1920}
               height={1920}
               loading="lazy"
+              priority={false}
               alt=""
-              src="/assets/sitio.jpg"
+              src="/assets/sitio.webp"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
             />
 
@@ -107,8 +109,9 @@ export function Services() {
               width={1920}
               height={1920}
               loading="lazy"
+              priority={false}
               alt=""
-              src="/assets/ecommerce.jpg"
+              src="/assets/ecommerce.webp"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
             />
 
@@ -141,8 +144,9 @@ export function Services() {
               width={1920}
               height={1920}
               loading="lazy"
+              priority={false}
               alt=""
-              src="/assets/app.jpg"
+              src="/assets/app.webp"
               className="rounded-xl absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-20"
             />
 
