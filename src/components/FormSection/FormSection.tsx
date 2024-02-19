@@ -86,7 +86,7 @@ export function CtaDark() {
             <br />
             <div>
               <span className="text-2xl font-light degradedBlue bg-blueLight">
-                !Explora nuestro mundo¡
+                ¡Explora nuestro mundo!
               </span>
             </div>
             <br /> <br />
