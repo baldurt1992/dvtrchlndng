@@ -1,4 +1,9 @@
-import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
+import {
+  RiFacebookCircleFill,
+  RiInstagramLine,
+  RiLinkedinBoxFill,
+  RiTwitterXFill,
+} from "react-icons/ri";
 
 export const footerData = [
   {
@@ -85,21 +90,21 @@ export const footerSocialNetworks = [
   {
     id: 1,
     icon: <RiInstagramLine />,
-    link: "#"
+    link: "https://www.instagram.com/dev.torch?igsh=MXA4OXJ6dGF0OHI0eg==",
   },
-  {
+  /*   {
     id: 2,
     icon: <RiFacebookCircleFill />,
-    link: "#"
+    link: "#",
   },
   {
     id: 3,
     icon: <RiTwitterXFill />,
-    link: "#"
-  },
+    link: "#",
+  }, */
   {
     id: 4,
     icon: <RiLinkedinBoxFill />,
-    link: "#"
+    link: "https://www.linkedin.com/in/devtorch-colombia-21536b2b6/",
   },
 ];

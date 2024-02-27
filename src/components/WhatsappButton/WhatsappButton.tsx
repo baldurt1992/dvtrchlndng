@@ -7,7 +7,7 @@ import Image from "next/image";
 export function WathsappButton() {
   const [clickKey, setClickKey] = useState(0);
   const handleRedirect = () => {
-    window.location.href = "https://api.whatsapp.com/send/?phone=573105041153";
+    window.location.href = "https://api.whatsapp.com/send/?phone=573013290214";
     setClickKey((prevKey) => prevKey + 1);
   };
   return (
