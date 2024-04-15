@@ -187,7 +187,7 @@ export function Services() {
               onClick={handleRedirect}
               className="text-sl md:text-lg shadow-button"
             >
-              Háblemos
+              Hablemos
             </button>
           </div>
         </div>
